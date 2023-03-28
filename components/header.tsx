@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 type Props = {};
 
-export default function header({}: Props) {
+export default function Header({}: Props) {
   // export default function header(): JSX.Element {
   return (
     <header className="sticky top-0 flex items-start justify-center max-w-7xl mx-auto z-20 xl:items-center">
