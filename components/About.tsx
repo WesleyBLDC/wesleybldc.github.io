@@ -22,16 +22,16 @@ export default function about({}: Props) {
         whileInView={{ opacity: 1, x: 0 }}
         viewport={{ once: true }}
         src={profilePic.src}
-        className="-mb-20 md:mb-0 flex-shrink-0 w-56 h-56 rounded-full object-cover md:rounded-lg md:w-64 md:h-95 xl:w-[500px] xl:h-[600px]"
+        className="-mb-20 md:mb-0 flex-shrink-0 w-40 h-40 rounded-full object-cover md:rounded-lg md:w-64 md:h-95 xl:w-[500px] xl:h-[600px]"
       />
 
-      <div className="space-y-10 px-0 md:px-10">
-        <h4 className="text-4xl font-semibold"> Here is a little background</h4>
+      <div className="space-y-5 px-0 md:px-10">
+        <h4 className="text-4xl font-semibold">Background</h4>
         <p className=" text-sm">
-          Hey there, my name is Wesley Dela Cruz. I studying Computer Science at
-          the National University of Singapore. My focus area in university is
-          software engineering and building useful projects to society. On the
-          side, I also run my own e-commerce business in the home and lifestyle
+          Hey there, my name is Wesley Dela Cruz. I am studying Computer Science
+          at the National University of Singapore, with a focus on software
+          engineering and building useful projects for society. In addition, I
+          also run my own e-commerce business in the home and lifestyle
           category.
         </p>
       </div>

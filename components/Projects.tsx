@@ -19,31 +19,13 @@ export default function projects({}: Props) {
             // height={150}
             className="relative mx-auto object-cover w-[600px] sm:w-[400px]"
           />
-          <h4 className="text-4xl font-semibold text-center">
-            Project Flow (Study Dashboard)
-          </h4>
+          <h4 className="text-4xl font-semibold text-center">Project Flow</h4>
           <ul className="md:text-lg text-xs text-left md:text-left">
             <li>
               • To help university students become more productive by reducing
               distractions and building better study habits. It offers a
               conducive environment for students to enter a state of flow, and
               fosters improved study habits through progress tracking.
-            </li>
-            <li>
-              • Wrote the frontend of the dashboard page, background/vibe
-              changer, and todo list using React, NextJS, ChakraUI, and state
-              management with Redux. For the backend, I wrote database, user
-              data and authentication using Supabase and their REST API to store
-              and fetch data for the todo list, and wrote psql for the data
-              analytics feature.
-            </li>
-            <li>
-              • Utilized Figma for wireframing and ER diagrams, and wrote unit
-              tests using Jest and React Testing Library.
-            </li>
-            <li>
-              • Awarded top 7% of cohort for a full-stack web application.
-              (https://project-flow.vercel.app/)
             </li>
           </ul>
         </div>

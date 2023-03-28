@@ -38,51 +38,51 @@ export default function skills({}: Props) {
 
       <div className="grid grid-cols-4 gap-5">
         <SiTypescript
-          className=" object-cover w-24 h-24 xl:w-32
-      xl:h-32 "
+          className=" object-cover w-12 h-12 xl:w-32
+          xl:h-32 "
         />
         <SiJavascript
-          className=" object-cover w-24 h-24 xl:w-32
-      xl:h-32 "
+          className=" object-cover w-12 h-12 xl:w-32
+          xl:h-32 "
         />
         <FaJava
-          className=" object-cover w-24 h-24 xl:w-32
+          className=" object-cover w-12 h-12 xl:w-32
     xl:h-32 "
         />
         <SiReact
-          className=" object-cover w-24 h-24 xl:w-32
+          className=" object-cover w-12 h-12 xl:w-32
   xl:h-32 "
         />
         <TbBrandNextjs
-          className=" object-cover w-24 h-24 xl:w-32
+          className=" object-cover w-12 h-12 xl:w-32
 xl:h-32 "
         />
         <SiRedux
-          className=" object-cover w-24 h-24 xl:w-32
+          className=" object-cover w-12 h-12 xl:w-32
 xl:h-32 "
         />
         <SiPython
-          className=" object-cover w-24 h-24 xl:w-32
+          className=" object-cover w-12 h-12 xl:w-32
       xl:h-32 "
         />
         <SiTestinglibrary
-          className=" object-cover w-24 h-24 xl:w-32
+          className=" object-cover w-12 h-12 xl:w-32
       xl:h-32 "
         />
         <SiPostgresql
-          className=" object-cover w-24 h-24 xl:w-32
+          className=" object-cover w-12 h-12 xl:w-32
     xl:h-32 "
         />
         <SiHtml5
-          className=" object-cover w-24 h-24 xl:w-32
+          className=" object-cover w-12 h-12 xl:w-32
       xl:h-32 "
         />
         <SiCss3
-          className=" object-cover w-24 h-24 xl:w-32
+          className=" object-cover w-12 h-12 xl:w-32
       xl:h-32 "
         />
         <SiGit
-          className=" object-cover w-24 h-24 xl:w-32
+          className=" object-cover w-12 h-12 xl:w-32
       xl:h-32 "
         />
       </div>
