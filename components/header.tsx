@@ -15,37 +15,17 @@ export default function Header({}: Props) {
         <div className="flex flex-row items-center">
           {/* Social Icons */}
           <SocialIcon
-            url="https://linkedin.com/in/jaketrent"
+            url="https://linkedin.com/in/wesleybldc"
             fgColor="gray"
             bgColor="transparent"
           />
           <SocialIcon
-            url="https://linkedin.com/in/jaketrent"
+            url="https://github.com/wesleybldc"
             fgColor="gray"
             bgColor="transparent"
           />
           <SocialIcon
-            url="https://linkedin.com/in/jaketrent"
-            fgColor="gray"
-            bgColor="transparent"
-          />
-          <SocialIcon
-            url="https://linkedin.com/in/jaketrent"
-            fgColor="gray"
-            bgColor="transparent"
-          />
-          <SocialIcon
-            url="https://linkedin.com/in/jaketrent"
-            fgColor="gray"
-            bgColor="transparent"
-          />
-          <SocialIcon
-            url="https://linkedin.com/in/jaketrent"
-            fgColor="gray"
-            bgColor="transparent"
-          />
-          <SocialIcon
-            url="https://linkedin.com/in/jaketrent"
+            url="mailto:wesley@u.nus.edu?subject=Wesley Dela Cruz Portfolio"
             fgColor="gray"
             bgColor="transparent"
           />
