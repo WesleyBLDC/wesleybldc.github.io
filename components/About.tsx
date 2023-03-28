@@ -27,7 +27,13 @@ export default function about({}: Props) {
 
       <div className="space-y-10 px-0 md:px-10">
         <h4 className="text-4xl font-semibold"> Here is a little background</h4>
-        <p className=" text-sm">eadsadasdasdasdasdhaiushdih</p>
+        <p className=" text-sm">
+          Hey there, my name is Wesley Dela Cruz. I studying Computer Science at
+          the National University of Singapore. My focus area in university is
+          software engineering and building useful projects to society. On the
+          side, I also run my own e-commerce business in the home and lifestyle
+          category.
+        </p>
       </div>
     </motion.div>
   );

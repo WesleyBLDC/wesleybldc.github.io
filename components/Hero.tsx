@@ -8,9 +8,13 @@ type Props = {};
 
 export default function Hero({}: Props) {
   const [text, count] = useTypewriter({
-    words: ["Hello", "hello again", "<loves to code>"],
+    words: [
+      "Hey I'm Wesley, CS @ NUS",
+      "Passionate about Healthcare+Tech",
+      "<Love to code and build useful stuff>",
+    ],
     loop: true,
-    delaySpeed: 2000,
+    delaySpeed: 1500,
   });
   return (
     <div className="h-screen flex flex-col space-y-8 items-center justify-center text-center overflow-hidden">
@@ -36,14 +40,14 @@ export default function Hero({}: Props) {
           <Link href="#about">
             <button className="heroButton">About</button>
           </Link>
-          <Link href="#about">
-            <button className="heroButton">About</button>
+          <Link href="#experiences">
+            <button className="heroButton">Experiences</button>
           </Link>
-          <Link href="#about">
-            <button className="heroButton">About</button>
+          <Link href="#skills">
+            <button className="heroButton">Skills</button>
           </Link>
-          <Link href="#about">
-            <button className="heroButton">About</button>
+          <Link href="#projects">
+            <button className="heroButton">Projects</button>
           </Link>
         </div>
       </div>
