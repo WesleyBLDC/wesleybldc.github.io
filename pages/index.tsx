@@ -15,35 +15,28 @@ export default function Home() {
         <meta name="description" content="WesleyBLDC's Portfolio" />
         {/* <link rel="icon" href="/favicon.ico" /> */}
       </Head>
-
       {/* Header */}
       <Header />
-
       {/* Hero */}
       <section id="hero" className="snap-start">
         <Hero />
       </section>
-
       {/* About */}
       <section id="about" className="snap-center">
         <About />
       </section>
-
-      {/* Experience */}
+      {/* Experience
       <section id="experiences" className="snap-center">
         <WorkExperience />
-      </section>
-
+      </section> */}
       {/* Skills */}
       <section id="skills" className="snap-start">
         <Skills />
       </section>
-
       {/* Projects */}
       <section id="projects" className="snap-start">
         <Projects />
       </section>
-
       {/* Contact Me
       <section id="contact" className="snap-start">
         <ContactMe />
