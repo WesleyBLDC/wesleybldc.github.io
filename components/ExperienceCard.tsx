@@ -38,13 +38,13 @@ export default function experienceCard({}: Props) {
           ></Image>
           {/* tech used */}
         </div>
-        
+
         <p className="uppercase py-5 ">Mar 2018 – Aug 2018</p>
 
         <ul className="list-disc space-y-4 ml-5 text-lg">
           <li>
-            Improved robot's force algorithm accuracy by 20% by integrating
-            force sensor feedback into the algorithm using C++ and ROS.
+            Improved robots force algorithm accuracy by 20% by integrating force
+            sensor feedback into the algorithm using C++ and ROS.
           </li>
           <li>
             Automated PID force calibration using Python and ROS to track force
