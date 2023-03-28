@@ -17,8 +17,8 @@ export default function experienceCard({}: Props) {
         className="h-32 w-32 rounded-full xl:w-[200px] xl:h-[200px] object-cover object-center"
       />
       <div className="px-0 md:px-10">
-        <h4 className="text-4xl font-light">CEO OF SDASDA</h4>
-        <p className="font-bold text-2xl mt-1">details</p>
+        <h4 className="text-4xl font-light">Software Engineer Internship</h4>
+        <p className="font-bold text-2xl mt-1">Details</p>
         <div className="flex space-x-2 my-2">
           <Image
             src={profilePic}
@@ -38,12 +38,23 @@ export default function experienceCard({}: Props) {
           ></Image>
           {/* tech used */}
         </div>
-        <p className="uppercase py-5 ">started work eneded</p>
+        
+        <p className="uppercase py-5 ">Mar 2018 – Aug 2018</p>
 
         <ul className="list-disc space-y-4 ml-5 text-lg">
-          <li>Summary points</li>
-          <li>Summary points</li>
-          <li>Summary points</li>
+          <li>
+            Improved robot's force algorithm accuracy by 20% by integrating
+            force sensor feedback into the algorithm using C++ and ROS.
+          </li>
+          <li>
+            Automated PID force calibration using Python and ROS to track force
+            feedback and provide optimal PID values, reducing the need for
+            manual calibration by hand and calculation.
+          </li>
+          <li>
+            Integrated BLDC/stepper motors, encoders, and various sensors into
+            robot using Arduino, C++, and ROS.
+          </li>
         </ul>
       </div>
     </article>
